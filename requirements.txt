@@ -1,0 +1,22 @@
+# Netflix Data Pipeline Requirements
+# Cài đặt các packages sau trong Airflow environment
+
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Kaggle API for dataset download
+kaggle>=1.5.12
+
+# Optional: Data Visualization (nếu muốn thêm visualization tasks)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Optional: Advanced Analytics
+scikit-learn>=1.1.0
+
+# Airflow Dependencies (usually pre-installed)
+# apache-airflow>=2.5.0
+# apache-airflow-providers-postgres (if using PostgreSQL)
+# apache-airflow-providers-mysql (if using MySQL)
